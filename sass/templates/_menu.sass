@@ -1,10 +1,46 @@
 .menu
-    
+    margin-bottom: 60px
     &_block
+        padding-bottom: 60px
+        border-bottom: 3px solid rgba(255, 255, 255, 0.6)
         &-title
+            font-size: 48px
+            color: white
+            margin-bottom: 57px
+            text-align: center
+            margin-top: 73px
         &-drinks
+            margin-bottom: 35px
+            &--text
+                font-size: 32px
+                color: white
+                margin-bottom: 21px
+            &__cardblock
+                position: relative
+                display: flex
+                justify-content: space-between
+                &::after
+                    content: ''
+                    background: url('../img/arrow.png') no-repeat
+                    width: 53px
+                    height: 53px
+                    position: absolute
+                    right: -10%
+                    top: 50%
+                    cursor: pointer
             &--card
+                width: 289px
+                height: 341px
+                border-radius: 20px
+                background-color: #262525
+                text-align: center
+                cursor: pointer
                 &---image
                 &---title
+                    margin-top: 21px
+                    margin-bottom: 21px
+                    font-size: 32px
+                    color: white
                 &---text
-        &-food
+                    font-size: 32px
+                    color: white
